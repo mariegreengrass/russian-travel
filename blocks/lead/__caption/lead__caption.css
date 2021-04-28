@@ -4,6 +4,20 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin: 0;
     padding-top: 8px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        padding-left: 24px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .lead__caption {
+        padding-left: 16px;
+    }
+
 }

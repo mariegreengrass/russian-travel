@@ -9,3 +9,21 @@
     max-width: calc(100% - 824px);
     z-index: 5;
 }
+
+@media screen and (max-width: 1279px) {
+    .cover__subtitle {
+        max-width: calc(100% - 332px*2);
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__subtitle {
+        max-width: calc(100% - 204px*2);
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+}
