@@ -8,6 +8,7 @@
     font-size: 16px;
     line-height: 18px;
     margin-right: 18px; 
+    display: flex;
 }
 
 .footer__link:last-child {
@@ -16,4 +17,17 @@
 
 .footer__link:hover {
     opacity: 0.8;
+}
+
+@media screen and (max-width: 540px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 32px;
+    }
+
+    .footer__link:last-child {
+        margin-bottom: 0;
+    }
+
 }

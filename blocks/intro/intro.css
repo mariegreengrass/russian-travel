@@ -2,13 +2,21 @@
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    max-width: calc(100% - 590px);
-    margin: 0;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        max-width: calc(100% - 442px);
+        padding-left: 148px;
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
-        max-width: calc(100% - 238px);
+        max-width: calc(100% - 286px);
+        padding-left: 48px;
         margin: 0;
     }
 
@@ -16,7 +24,8 @@
 
 @media screen and (max-width: 1023px) {
     .intro {
-        max-width: calc(100% - 48px);
+        max-width: calc(100% - 24px);
+        padding-left: 24px;
         margin: 0;
     }
 
@@ -24,7 +33,7 @@
 
 @media screen and (max-width: 540px) {
     .intro {
-        max-width: calc(100% - 16px*2);
+        max-width: calc(100% - 16px);
         margin: 0;
         padding-left: 16px;
     }
