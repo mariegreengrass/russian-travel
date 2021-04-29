@@ -6,11 +6,11 @@
     "title web-site"
     "image text";
     padding: 0;
+    max-width: 100%;
 }
 
 @media screen and (min-width: 1280px) {
     .place {
-        max-width: calc(100% - 148px*2);
         margin-bottom: 80px;
     }
     
@@ -22,7 +22,6 @@
 @media screen and (max-width: 1279px) {
     .place {
         margin: 0;
-        max-width: calc(100% - 48px*2);
         margin-bottom: 80px;
     }
 
@@ -34,7 +33,6 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        max-width: calc(100% - 24px*2);
         padding-left: 24px;
         margin-bottom: 73px;
     }

@@ -3,14 +3,8 @@
     flex-direction: column;
     align-content: flex-start;
     margin: 0 auto;
-}
-
-@media screen and (min-width: 1280px) {
-    .intro {
-        max-width: calc(100% - 442px);
-        padding-left: 148px;
-        margin: 0;
-    }
+    max-width: 690px;
+    padding-right: 294px;
 }
 
 @media screen and (max-width: 1279px) {
