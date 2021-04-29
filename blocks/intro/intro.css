@@ -4,7 +4,11 @@
     align-content: flex-start;
     margin: 0 auto;
     max-width: 690px;
-    padding-right: 294px;
+}
+
+@media screen and (min-width: 1280px) {
+    .intro {
+        padding-right: 294px;
 }
 
 @media screen and (max-width: 1279px) {
