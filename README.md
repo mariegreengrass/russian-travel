@@ -1,5 +1,7 @@
 # Проект 3: Путешествие по России
 
+Ссылка проекта на GitHub Pages: https://mariegreengrass.github.io/russian-travel/index.html
+
 ### Обзор
 * О проекте
 * Что использовано в процессе создания
