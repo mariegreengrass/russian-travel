@@ -23,6 +23,7 @@
     .place {
         margin: 0;
         margin-bottom: 80px;
+        grid-gap: 48px 32px;
     }
 
     .place:last-child {
@@ -33,8 +34,8 @@
 
 @media screen and (max-width: 1023px) {
     .place {
-        padding-left: 24px;
         margin-bottom: 73px;
+        grid-gap: 48px 28px;
     }
 
     .place:last-child {
@@ -43,9 +44,20 @@
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 1023px) {
     .place {
-        margin-bottom: 50px;
+        grid-template-columns: minmax(200px, 1fr) minmax(min-content, 1fr);
+    }
+
+    .place:last-child {
+        margin-bottom: 90px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin: 0 auto 50px;
         grid-template-columns: minmax(min-content, 1fr);
         grid-gap: 32px;
         grid-template-areas:
@@ -54,7 +66,7 @@
     "image"
     "text";
         padding: 0;
-        max-width: 100%;
+        width: 100%;
     }
 
     .place:last-child {
